@@ -1,0 +1,24 @@
+{
+  "name": "mynode",
+  "version": "1.0.0",
+  "description": "a project to learn typescript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chaaicode",
+    "masterji"
+  ],
+  "author": "shivam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
