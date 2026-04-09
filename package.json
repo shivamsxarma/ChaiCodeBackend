@@ -20,5 +20,13 @@
     "@types/node": "^25.3.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsxarma/ChaiCodeBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivamsxarma/ChaiCodeBackend/issues"
+  },
+  "homepage": "https://github.com/shivamsxarma/ChaiCodeBackend#readme"
 }

@@ -1,0 +1,4 @@
+// function addNum (a:number,b:number){
+//     console.log(a+b)
+// }
+// addNum(10,20)

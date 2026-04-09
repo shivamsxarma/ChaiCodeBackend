@@ -1,0 +1,30 @@
+//in memory DB
+// save (`user -1`, { fname,lname,})
+//hash map (ket , value)
+// T?? t??
+interface user{
+    id:string
+    Fname:string 
+    lname:string
+    email:string
+    contact:{
+    mobile:number
+}
+address:{
+ street:number
+ pin:number   
+}
+}
+
+
+
+class InMemoryDB{
+    private _db : Map<String,user>
+
+    constructor(){
+       this._db=new Map();
+    }
+    public insertUser(data:user){
+        this._db.set(data.id,data)
+    }
+}
